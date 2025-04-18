@@ -57,7 +57,7 @@ install(TARGETS
 
 # Install launch and other files
 install(DIRECTORY
-  launch
+  #launch
   sdk
   DESTINATION share/${PROJECT_NAME}
 )
