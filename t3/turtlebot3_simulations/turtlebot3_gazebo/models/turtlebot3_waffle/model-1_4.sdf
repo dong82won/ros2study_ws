@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name="turtlebot3_waffle">  
+  <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+
+    <link name="base_footprint"/>
+
+    <link name="base_link">
+
+      <inertial>
+        <pose>-0.064 0 0.048 0 0 0</pose>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0.000</ixy>
+          <ixz>0.000</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0.000</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <mass>1.0</mass>
+      </inertial>
+
+      <collision name="base_collision">
+        <pose>-0.064 0 0.048 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.265 0.265 0.089</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <visual name="base_visual">
+        <pose>-0.064 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.265 0.265 0.089</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+
+   
+  </model>
+</sdf>
